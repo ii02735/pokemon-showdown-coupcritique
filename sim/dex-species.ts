@@ -1,7 +1,7 @@
 import {toID, BasicEffect} from './dex-data';
 
-interface SpeciesAbility {
-	0: string;
+export interface SpeciesAbility {
+	0?: string;
 	1?: string;
 	H?: string;
 	S?: string;
