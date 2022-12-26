@@ -1,5 +1,5 @@
 import AbstractProvider from "./AbstractProvider";
-import {Item as ItemShowdown} from "../../sim/dex-items";
+import {Item as ItemShowdown} from "../../../sim/dex-items";
 import Util from "../util";
 import {Item} from "../interfaces/providers";
 export default class ItemProvider extends AbstractProvider<Item> {

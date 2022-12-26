@@ -1,6 +1,6 @@
 import AbstractProvider from "./AbstractProvider";
 import {Nature} from "../interfaces/providers";
-import {Nature as NatureShowdown} from "../../sim/dex-data";
+import {Nature as NatureShowdown} from "../../../sim/dex-data";
 
 export default class NatureProvider extends AbstractProvider<Nature> {
 	private makeObject(rawNature: NatureShowdown): Nature {

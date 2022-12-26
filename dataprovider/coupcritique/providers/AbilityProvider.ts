@@ -1,5 +1,5 @@
 import AbstractProvider from "./AbstractProvider";
-import {Ability as AbilityShowdown} from "../../sim/dex-abilities";
+import {Ability as AbilityShowdown} from "../../../sim/dex-abilities";
 import Util from "../util";
 import {Ability} from "../interfaces/providers";
 export default class AbilityProvider extends AbstractProvider<Ability> {

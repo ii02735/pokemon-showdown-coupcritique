@@ -1,7 +1,7 @@
 import AbstractProvider from "./AbstractProvider";
 import {Pokemon} from "../interfaces/providers";
 import Util from "../util";
-import {Species as PokemonShowdown, SpeciesAbility as AbilityShowdown} from "../../sim/dex-species";
+import {Species as PokemonShowdown, SpeciesAbility as AbilityShowdown} from "../../../sim/dex-species";
 
 export default class PokemonProvider extends AbstractProvider<Pokemon> {
 	private readonly pokemonCollection: Pokemon[] = [];

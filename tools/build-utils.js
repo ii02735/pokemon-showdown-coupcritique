@@ -200,8 +200,8 @@ exports.transpile = (doForce, decl) => {
 		]);
 	}
 
-	if (sucrase('./dataprovider-coupcritique', './.dataprovider-coupcritique-dist')) {
-		replace('.dataprovider-coupcritique-dist', [
+	if (sucrase('./dataprovider', './.dataprovider-dist')) {
+		replace('.dataprovider-dist', [
 			{regex: /(require\(.*?)(lib|sim)/g, replace: `$1.$2-dist`},
 		]);
 	}

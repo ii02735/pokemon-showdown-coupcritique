@@ -1,5 +1,5 @@
 import AbstractProvider from "./AbstractProvider";
-import {Move as MoveShowdown} from "../../sim/dex-moves";
+import {Move as MoveShowdown} from "../../../sim/dex-moves";
 import Util from "../util";
 import {Move} from "../interfaces/providers";
 export default class MoveProvider extends AbstractProvider<Move> {

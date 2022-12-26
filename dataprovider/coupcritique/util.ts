@@ -1,4 +1,4 @@
-import {BasicEffect} from "../sim/dex-data";
+import {BasicEffect} from "../../sim/dex-data";
 
 export default class Util {
 	public static isStandard(object: BasicEffect, gen: number|null = null, otherCondition = true): boolean {
