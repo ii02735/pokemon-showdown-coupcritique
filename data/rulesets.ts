@@ -159,7 +159,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		name: 'Standard Draft',
 		desc: "The custom Draft League ruleset",
 		ruleset: [
-			'Obtainable', '+Unreleased', '+CAP', 'Sketch Post-Gen 7 Moves', 'Team Preview', 'Sleep Clause Mod', 'OHKO Clause', 'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+			'Obtainable', 'Nickname Clause', '+Unreleased', '+CAP', 'Sketch Post-Gen 7 Moves', 'Team Preview', 'Sleep Clause Mod', 'OHKO Clause', 'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
 		],
 		// timer: {starting: 60 * 60, grace: 0, addPerTurn: 10, maxPerTurn: 100, timeoutAutoChoose: true},
 	},
@@ -960,7 +960,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		effectType: 'ValidatorRule',
 		name: 'Evasion Moves Clause',
 		desc: "Bans moves that consistently raise the user's evasion when used",
-		banlist: ['Minimize', 'Double Team'],
+		banlist: ['Acupressure', 'Minimize', 'Double Team'],
 		onBegin() {
 			this.add('rule', 'Evasion Moves Clause: Evasion moves are banned');
 		},
